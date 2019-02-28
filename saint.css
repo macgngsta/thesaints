@@ -1,7 +1,8 @@
 /* ALL PAGE STYLES */
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 11pt;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -13,7 +14,6 @@ a,
 a:active,
 a:visited {
     color: white;
-    font-weight: lighter;
     text-transform: uppercase;
     font-size: 11pt;
 }
@@ -26,6 +26,7 @@ strong {
     color: #40554E;
 }
 
+/* CONTACT US BUTTON */
 button {
     color: white;
     background-color: #5A7A25;
@@ -34,7 +35,6 @@ button {
     box-shadow: 2px 2px 2px grey;
     border-radius: 45px;
     padding: 10px 45px;
-    font-weight: lighter;
 }
 
 
@@ -46,24 +46,30 @@ button:hover {
     box-shadow: 2px 2px 2px grey;
     border-radius: 45px;
     padding: 10px 45px;
-    font-weight: lighter;
 }
 
 /* NAVIGATION */
+
+.navbrand {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: 10000;
+    margin-left: 10px;
+}
 
 nav {
     background-color: #40554E;
     opacity: .7;
     text-transform: uppercase;
     color: white;
-    font-weight: 100;
     font-size: 18pt;
+    border-bottom: white 1px solid;
 }
 
 .nav-item {
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 /* HOME/LAUNCH PAGE */
@@ -110,6 +116,5 @@ nav {
     border: white 1px solid;
     color: white;
     text-transform: uppercase;
-    font-weight: lighter;
     text-align: center;
 }

@@ -20,6 +20,7 @@ a:visited {
 
 a:hover {
     color: #c0e969;
+    text-decoration: none;
 }
 
 strong {
@@ -39,9 +40,9 @@ button {
 
 
 button:hover {
-    color: white;
-    background-color: #40554E;
-    border: 1px solid #5A7A25;
+    color: #5A7A25;
+    background-color: transparent;
+    border: 2px solid #5A7A25;
     text-transform: uppercase;
     box-shadow: 2px 2px 2px grey;
     border-radius: 45px;
@@ -50,12 +51,13 @@ button:hover {
 
 /* NAVIGATION */
 
-.navbrand {
+.logo {
     position: absolute;
     width: 150px;
     height: 150px;
     z-index: 10000;
     margin-left: 10px;
+    border: 1px white solid;
 }
 
 nav {
@@ -77,6 +79,7 @@ nav {
     background-repeat: no-repeat;
 }
 
+
 /* ABOUT PAGE */
 #about>img {
     opacity: .6;
@@ -96,11 +99,7 @@ nav {
 .aboutcontent {
     position: relative;
     z-index: 10;
-    bottom: 860px;
-}
-
-.container {
-    z-index: 1;
+    /* bottom: 860px; */
 }
 
 .headshots {
@@ -117,4 +116,37 @@ nav {
     color: white;
     text-transform: uppercase;
     text-align: center;
+}
+
+/* SERVICES PAGE  */
+
+.servicescontent {
+    position: relative;
+    z-index: 11;
+}
+
+.details {
+    background: white;
+    opacity: .8;
+    border-top: 35px solid black;
+    border-bottom: 35px solid black;
+    height: 200px;
+}
+
+.details>p {
+    color: black;
+    text-align: center;
+    font-size: 9pt;
+}
+
+.brand>img {
+    width: 200px;
+}
+
+.icons {
+    width: 50px;
+}
+
+.abouttop, .aboutbottom{ 
+    padding-bottom: 60px;
 }

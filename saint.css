@@ -25,6 +25,7 @@ a:hover {
 
 strong {
     color: #40554E;
+    font-size: 10pt;
 }
 
 /* CONTACT US BUTTON */
@@ -80,7 +81,7 @@ nav {
 }
 
 
-/* ABOUT PAGE */
+/* /////////////ABOUT PAGE//////////*/
 
 #about>.container {
     display: flex;
@@ -88,7 +89,7 @@ nav {
     justify-content: center;
 }
 
-] #about>img {
+#about>img {
     opacity: .6;
 }
 
@@ -126,7 +127,10 @@ nav {
     text-align: center;
 }
 
-/* SECOND ROW OF ABOUT */
+/* //////////SECOND ROW OF ABOUT ///////////*/
+#about {
+    padding-bottom: 3%;
+}
 
 .details {
     background: white;
@@ -134,11 +138,8 @@ nav {
     border-top: 35px solid black;
     border-bottom: 35px solid black;
     height: 200px;
-}
-
-.details>p {
-    color: black;
     text-align: center;
+    padding-top: 10px;
     font-size: 9pt;
 }
 
@@ -146,12 +147,10 @@ nav {
     width: 200px;
 }
 
-
 .icon-location:before {
     content: "\e947";
     color: #5A7A25;
     font-size: 40pt;
-
 }
 
 .icon-wrench:before {
@@ -166,8 +165,7 @@ nav {
     font-size: 40pt;
 }
 
-.abouttop,
-.aboutbottom {
+.abouttop {
     padding-bottom: 60px;
 }
 

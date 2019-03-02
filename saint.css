@@ -132,19 +132,18 @@ nav {
     padding-bottom: 3%;
 }
 
-.details {
-    background: white;
-    opacity: .8;
+/* this creates the black/white rectangular bg */
+div>.bottom {
+    background: rgb(255, 255, 255, .8);
     border-top: 35px solid black;
     border-bottom: 35px solid black;
     height: 200px;
     text-align: center;
     padding-top: 10px;
-    font-size: 9pt;
 }
 
-.brand>img {
-    width: 200px;
+.details {
+    font-size: 9pt;
 }
 
 .icon-location:before {

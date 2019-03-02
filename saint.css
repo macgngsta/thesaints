@@ -81,7 +81,14 @@ nav {
 
 
 /* ABOUT PAGE */
-#about>img {
+
+#about>.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+] #about>img {
     opacity: .6;
 }
 
@@ -100,6 +107,7 @@ nav {
     position: relative;
     z-index: 10;
     /* bottom: 860px; */
+    padding-top: 100px;
 }
 
 .headshots {
@@ -118,12 +126,7 @@ nav {
     text-align: center;
 }
 
-/* SERVICES PAGE  */
-
-.servicescontent {
-    position: relative;
-    z-index: 11;
-}
+/* SECOND ROW OF ABOUT */
 
 .details {
     background: white;
@@ -143,10 +146,34 @@ nav {
     width: 200px;
 }
 
-.icons {
-    width: 50px;
+
+.icon-location:before {
+    content: "\e947";
+    color: #5A7A25;
+    font-size: 40pt;
+
 }
 
-.abouttop, .aboutbottom{ 
+.icon-wrench:before {
+    content: "\e991";
+    color: #5A7A25;
+    font-size: 40pt;
+}
+
+.icon-bookmark:before {
+    content: "\e9d2";
+    color: #5A7A25;
+    font-size: 40pt;
+}
+
+.abouttop,
+.aboutbottom {
     padding-bottom: 60px;
+}
+
+/* SERVICES PAGE  */
+
+.servicescontent {
+    position: relative;
+    z-index: 11;
 }

@@ -180,11 +180,10 @@ div>.bottom {
 /* FAQ PAGE */
 
 .faqtitle {
-    background: rgb(0, 0, 0, .9);
+    background: rgb(0, 0, 0, .8);
     font-size: 20pt;
     color: white;
-    max-height: 100px;
-    text-align: right;
+    height: 100px;
 }
 
 .btn-saint {
@@ -195,4 +194,10 @@ div>.bottom {
 .btn-saint:hover {
     background-color: grey;
     color: white;
+}
+
+.top-buffer,
+.bottom-buffer {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

@@ -207,3 +207,8 @@ div>.bottom {
 
 
 /* /////// CONTACT PAGE /////// */
+form{ 
+    text-transform: uppercase; 
+    color: white; 
+    margin: 30px;
+}

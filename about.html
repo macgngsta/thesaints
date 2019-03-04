@@ -48,27 +48,67 @@
             </ul>
         </div>
     </nav>
+
+
+
     <!-- CONTACT -->
     <div id="contact">
         <img class="img-fluid position-absolute" src="Photos/flooring.jpg">
         <div class="container-fluid">
             <div class="row container-fluid contactheader">
                 <div class="col d-flex align-items-center top-buffer bottom-buffer" style="height: 150px; border: 1px white solid;background: rgb(0,0,0,.8)">
-                    <img style="height:200px" src="Design/Logos/Final/1.png">
+                    <img style="height:200px; margin-left: auto; margin-right:auto" src="Design/Logos/Final/1.png">
                 </div>
             </div>
+            <!-- ///////// Content //////////-->
             <div class="row container-fluid content top-buffer bottom-buffer">
-                <div class="col-4" style="background: pink; height:400px"></div>
-                <div class="col-4" style="background: purple"></div>
-                <div class="col-4" style="background: maroon"></div>
+                <!-- fullname + email -->
+                <div class="col-4" style="background: pink; height:400px">
+                    <form>
+                        <div class="form group">
+                            <label for="inputFullName"> full name</label>
+                            <input type="fullName" class="form-control" id="inputFullName"> </div>
+                        <div class="form group">
+                            <label for="inputEmail"> e-mail</label>
+                            <input type="email" class="form-control" id="inputemail">
+                        </div>
+                </div>
+                </form>
             </div>
-            <div class="row container-fluid footer">
-                <div class="col" style="background: yellow; height:100px"></div>
-                <div class="col" style="background: green"></div>
-                <div class="col" style="background: greenyellow"></div>
-                <div class="col" style="background: white"></div>
-            </div>
+
+            <!-- ////// Content/////// 2  -->
+            <div class="col-4" style="background: purple">
+                <form>
+                    <div class="form group">
+                        <label for="inputPhone"> Phone Number</label>
+                        <input type="phone" class="form-control" id="inputPhone">
+                    </div>
+                    <div class="form group">
+                        <label for="inputProject"> Project Type</label>
+                        <select type="project" class="form-control" id="selectProject">
+                            <option>Deck</option>
+                            <option>Awning</option>
+                            <option>Fence</option>
+                            <option>Handyman Service</option>
+                            <option>Repair</option>
+                            <option>Bathroom or Kitchen Tiling</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-saint" type="button">
+                        submit
+                    </button>
+            </form>
+
         </div>
+        <div class="col-4" style="background: maroon"></div>
+    </div>
+    <div class="row container-fluid footer">
+        <div class="col" style="background: yellow; height:100px"></div>
+        <div class="col" style="background: green"></div>
+        <div class="col" style="background: greenyellow"></div>
+        <div class="col" style="background: white"></div>
+    </div>
+    </div>
 
 
 

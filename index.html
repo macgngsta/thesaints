@@ -303,45 +303,83 @@
         <!-- CONTACT -->
         <div id="contact">
             <img class="img-fluid position-absolute" src="Photos/flooring.jpg">
-            <div class="row container-fluid contactheader">
-                <div class="col-12">
-                    <img scr="Design/Logos/Final/1.png">
+            <div class="container-fluid">
+                <div class="row contactheader">
+                    <div class="col d-flex align-items-center top-buffer bottom-buffer" style="height: 150px; border: 1px white solid;background: rgb(0,0,0,.8)">
+                        <img style="height:200px; margin-left: auto; margin-right:auto" src="Design/Logos/Final/1.png">
+                    </div>
+                </div>
+
+
+                <!-- ///////// Content //////////-->
+                <div class="row content top-buffer" style="margin-bottom: 10%">
+                    <!-- fullname + email -->
+                    <div class="col-3">
+                        <form>
+                            <label for="inputFullName"> full name</label>
+                            <input type="fullName" class="form-control" id="inputFullName">
+
+                            <label for="inputEmail"> e-mail address</label>
+                            <input type="email" class="form-control" id="inputemail">
+                        </form>
+                    </div>
+
+                    <!-- ////// Content/////// 2  -->
+                    <div class="col-3">
+                        <form>
+                            <label for="inputPhone"> Phone Number</label>
+                            <input type="phone" class="form-control" id="inputPhone">
+
+                            <label for="inputProject"> Project Type</label>
+                            <select type="project" class="form-control" id="selectProject">
+                                <option>Deck</option>
+                                <option>Awning</option>
+                                <option>Fence</option>
+                                <option>Handyman Service</option>
+                                <option>Repair</option>
+                                <option>Bathroom or Kitchen Tiling</option>
+                                <option>Other</option>
+                            </select>
+
+                            <button class="btn btn-saint" style="border: 1px solid rgb(225,225,225,.5); padding-left: 30px; padding-right: 30px;text-transform: uppercase; margin-top: 30px;">
+                                submit
+                            </button>
+                        </form>
+                    </div>
+                    <!-- text message field -->
+                    <div class="col-4">
+                        <form>
+                            <label for="inputMessage">Additional Message</label>
+                            <textarea class="form-control" id="inputMessage" rows="5" placeholder="Need help?&#10We've got solutions!"></textarea>
+                        </form>
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="col d-flex align-items-center" style=" height:100px">
+                        <p>THE SAINTS HMS LLC <br>
+                            LICENSE # SAINTSH824N1</p><span class="icon-bookmark"></span>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <p>(425) 205- 7940</p><span class="icon-phone" style="padding-right: 5px; padding-left:5px"></span>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <p>JAMESHEATH@EMAIL.COM</p><span class="icon-mail2" style="padding-right: 5px; padding-left:5px"></span>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <p> 2630 WEST LYNN STREET <br>
+                            SEATTLE, WA 98199</p><span style="padding-right: 5px; padding-left:5px" class="icon-location"></span>
+                    </div>
                 </div>
             </div>
-            <div class="row container-fluid content">
-                <div class="col-4" style="background: pink"></div>
-                <div class="col-4" style="background: purple"></div>
-                <div class="col-4" style="background: maroon"></div>
-            </div>
-            <div class="row container-fluid footer">
-                <div col></div>
-                <div col></div>
-                <div col></div>
-                <div col></div>
-            </div>
-        </div>
 
-
-
-
-        <!-- SHAPES -->
-        <!-- <button type="button"><a href="#contact">contact us</a></button> -->
-        <button type="button" class="btn btn-success">contact us</button>
-
-
-
-
-
-
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>

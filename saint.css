@@ -1,6 +1,6 @@
 /* ALL PAGE STYLES */
 * {
-    font-size: 11pt;
+    font-size: 10pt;
     font-family: 'Montserrat',
         sans-serif;
 }
@@ -175,8 +175,7 @@ div>.bottom {
     background: rgb(0, 0, 0, .8);
     height: 100px;
     color: white;
-    height: 75px;
-    font-size: 50pt;
+    height: 25px;
 }
 
 .btn-saint {

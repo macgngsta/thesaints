@@ -188,21 +188,30 @@ div>.bottom {
     color: white;
 }
 
-.top-buffer,
-.bottom-buffer {
-    margin-top: 30px;
-    margin-bottom: 30px;
+
+.faqs {
+    display: block;
+    background-color: rgb(255, 255, 255, .8);
+    margin-bottom: 1%
 }
 
-.faqs{
-    display:block;
-    background-color: rgb(255,255,255,.8); 
-    margin-bottom:1%
-}
-.answer{ 
-    color:black;
+.answer {
+    color: black;
+    padding-left: 10px;
 }
 
+h5 {
+    background-color: #40554E;
+    color: white;
+    padding-top: 1em;
+    padding-left: 10px;
+}
+
+.faqanswers {
+    background-color: rgb(255, 255, 255, .8);
+    padding-left: 0;
+
+}
 
 /* /////// CONTACT PAGE /////// */
 form {

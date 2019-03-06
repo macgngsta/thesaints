@@ -220,6 +220,7 @@ h5 {
 .faqanswers {
     background-color: rgb(255, 255, 255, .8);
     padding-left: 0;
+    margin-bottom: 40px;
 }
 
 /* /////// CONTACT PAGE /////// */
@@ -245,4 +246,28 @@ select {
 span {
     color: white;
     font-size: 9pt;
+}
+
+#home {
+    min-height: 100vh;
+    background-image: url(Photos/restroom.jpg);
+    background-size: cover;
+}
+
+#about {
+    min-height: 100vh;
+    background-image: url(Photos/patio3.jpg);
+    background-size: cover;
+}
+
+#services {
+    min-height: 100vh;
+    background-image: url(Photos/patio.jpg);
+    background-size: cover;
+}
+
+#faq {
+    min-height: 100vh;
+    background-image: url(Photos/living3.jpg);
+    background-size: cover;
 }

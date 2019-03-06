@@ -97,17 +97,16 @@ nav {
 /* /////////////ABOUT PAGE//////////*/
 
 .abouttext>p {
-    background: rgb(255,255,255,.6);
+    background: rgb(255, 255, 255, .6);
     font-size: 10pt;
     line-height: .5en;
     align-content: justify;
     padding: 15px 15px 15px 20px;
     margin-bottom: 20%;
-    box-shadow: 2px 2px 3px rgb(0,0,0,.5);
+    box-shadow: 2px 2px 3px rgb(0, 0, 0, .5);
 }
 
 .aboutcontent {
-    position: relative;
     padding-top: 50px;
 }
 
@@ -119,7 +118,7 @@ nav {
 
 /* this creates the black/white rectangular bg */
 div>.bottom {
-    background: rgb(255, 255, 255,.8);
+    background: rgb(255, 255, 255, .8);
     border-top: 35px solid black;
     border-bottom: 35px solid black;
     height: 200px;
@@ -244,6 +243,7 @@ h4 {
 
 h5 {
     background-color: #40554E;
+    border-radius: 2px;
     color: white;
     padding-top: 1em;
     padding-left: 10px;
@@ -251,8 +251,9 @@ h5 {
 
 .faqanswers {
     background-color: rgb(255, 255, 255, .8);
+    border-radius: 10px;
     padding-left: 0;
-    margin-bottom: 40px;
+     !important margin-bottom: 40px;
 }
 
 /* /////// CONTACT PAGE /////// */

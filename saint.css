@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .container-fluid {
@@ -117,13 +118,19 @@ nav {
 
 /* /////////////ABOUT PAGE//////////*/
 
-.abouttext>p,
-h1 {
-    background: rgb(255, 255, 255, .6);
+.abouttext>p {
+    background: rgb(255, 255, 255, .8);
     line-height: .5en;
     padding: 15px 15px 15px 20px;
     box-shadow: 2px 2px 3px rgb(0, 0, 0, .5);
 }
+
+@media (min-width: 576px) {
+    .abouttext {
+        align-items: center;
+    }
+}
+
 
 .abouttext {
     padding-top: 50px;

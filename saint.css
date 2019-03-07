@@ -28,6 +28,7 @@ a:hover {
 a:active,
 a:visited,
 h1,
+nav,
 .details,
 .display-4,
 label,
@@ -99,11 +100,11 @@ label,
 
 nav {
     background-color: rgb(65, 85, 78, .7);
-    text-transform: uppercase;
     color: white;
     font-size: 18pt;
     border-bottom: white 1px solid;
 }
+
 
 .nav-item {
     padding-left: 10px;
@@ -123,12 +124,6 @@ nav {
     line-height: .5en;
     padding: 15px 15px 15px 20px;
     box-shadow: 2px 2px 3px rgb(0, 0, 0, .5);
-}
-
-@media (min-width: 576px) {
-    .abouttext {
-        align-items: center;
-    }
 }
 
 

@@ -1,6 +1,5 @@
 /* ALL PAGE STYLES */
 * {
-    font-size: 10pt;
     font-family: 'Montserrat',
         sans-serif;
 }
@@ -17,7 +16,6 @@ a,
 a:active,
 a:visited {
     color: white;
-    text-transform: uppercase;
     font-size: 11pt;
 }
 
@@ -26,10 +24,34 @@ a:hover {
     text-decoration: none;
 }
 
-strong {
-    color: #40554E;
+a:active,
+a:visited,
+h1,
+.details,
+.display-4,
+label,
+.btn,
+.footer {
+    text-transform: uppercase;
+}
+
+/* Custom button w/ design color */
+.btn-saint {
+    background-color: #40554E;
+    color: white;
+}
+
+.btn-saint:hover {
+    background-color: grey;
+    color: white;
+}
+
+.details,
+.footer {
     font-size: 10pt;
 }
+
+
 
 /* PAGE IMAGES */
 #home {
@@ -75,8 +97,7 @@ strong {
 }
 
 nav {
-    background-color: #40554E;
-    opacity: .7;
+    background-color: rgb(65, 85, 78, .7);
     text-transform: uppercase;
     color: white;
     font-size: 18pt;
@@ -176,7 +197,7 @@ h1 {
     line-height: 1.5em;
 }
 
-.serviceslist ul li {
+.serviceslist>ul {
     list-style-type: square;
 }
 
@@ -209,15 +230,6 @@ h1 {
     margin-bottom: 5%;
 }
 
-.btn-saint {
-    background-color: #40554E;
-    color: white;
-}
-
-.btn-saint:hover {
-    background-color: grey;
-    color: white;
-}
 
 
 .answer {
@@ -241,9 +253,12 @@ h5 {
 }
 
 /* /////// CONTACT PAGE /////// */
-form {
-    text-transform: uppercase;
+
+#contact {
     color: white;
+}
+
+form {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -257,10 +272,24 @@ label {
 input,
 textarea,
 select {
-    opacity: .6;
+    opacity: .7;
 }
 
-span {
-    color: white;
-    font-size: 9pt;
+.submitButton {
+    border: 1px solid rgb(225, 225, 225, .5);
+    box-shadow: 2px 2px 3px rgb(0, 0, 0, .5);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 15%;
+}
+
+.contactForm {
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.contactheader {
+    height: 150px;
+    border: 1px solid white;
+    background: rgb(0, 0, 0, .8);
 }

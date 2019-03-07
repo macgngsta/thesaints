@@ -170,14 +170,16 @@ h1 {
     margin-bottom: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 20px;
     background-color: rgb(64, 85, 78, .6);
     color: white;
     line-height: 1.5em;
 }
 
-li {
-    list-style-type: none;
+.serviceslist ul li {
+    list-style-type: square;
 }
+
 
 .servicelogo>img {
     width: 200px;

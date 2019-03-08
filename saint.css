@@ -111,6 +111,10 @@ nav {
     padding-right: 10px;
 }
 
+.nav-link {
+    text-align: center;
+}
+
 /* HOME/LAUNCH PAGE */
 .home {
     background-repeat: no-repeat;

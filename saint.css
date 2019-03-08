@@ -16,7 +16,7 @@ body {
 a,
 a:active,
 a:visited {
-    color: white;
+    color: white !important;
     font-size: 11pt;
 }
 
@@ -89,15 +89,6 @@ label,
 
 /* NAVIGATION */
 
-.logo {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    z-index: 10000;
-    margin-left: 10px;
-    border: 1px white solid;
-}
-
 nav {
     background-color: rgb(65, 85, 78, .7);
     color: white;
@@ -114,6 +105,8 @@ nav {
 .nav-link {
     text-align: center;
 }
+
+
 
 /* HOME/LAUNCH PAGE */
 .home {
@@ -145,9 +138,6 @@ nav {
     border-bottom: 35px solid black;
     height: 200px;
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    margin: 0;
 }
 
 .icon {
@@ -228,7 +218,7 @@ h1 {
 
 /* FAQ PAGE */
 
-.FAQ { 
+.FAQ {
     padding-top: 100px;
 }
 
@@ -258,8 +248,8 @@ h5 {
     color: white;
 }
 
-@media  (min-width: 768px){ 
-    .footer{ 
+@media (min-width: 768px) {
+    .footer {
         align-content: left;
     }
 }

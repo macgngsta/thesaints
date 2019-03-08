@@ -228,15 +228,9 @@ h1 {
 
 /* FAQ PAGE */
 
-.faqblock {
-    background: rgb(0, 0, 0, .8);
-    height: 100px;
-    color: white;
-    height: 25px;
-    margin-bottom: 5%;
+.FAQ { 
+    padding-top: 100px;
 }
-
-
 
 .answer {
     color: black;
@@ -262,6 +256,12 @@ h5 {
 
 #contact {
     color: white;
+}
+
+@media  (min-width: 768px){ 
+    .footer{ 
+        align-content: left;
+    }
 }
 
 form {
